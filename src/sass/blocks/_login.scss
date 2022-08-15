@@ -101,9 +101,6 @@
             font-weight: 500;
             outline: none;
             line-height: 1.4;
-            &:first-child {
-                padding: 0px;
-            }
             &:last-child {
                 padding-right: 0px;
             }
@@ -113,6 +110,10 @@
             }
         }
     }
+}
+
+.lang {
+    padding: 0;
 }
 
 
