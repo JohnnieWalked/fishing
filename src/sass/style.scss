@@ -1,0 +1,26 @@
+@import 'libs/bootstrap-reboot.min.scss';
+
+@import 'base/fonts.scss';
+@import 'base/variables';
+@import 'base/mixins';
+
+@import 'blocks/login';
+@import 'blocks/form';
+
+@import 'media/media';
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 601px;
+    margin: 0 auto;
+}
